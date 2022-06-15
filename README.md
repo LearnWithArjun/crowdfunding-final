@@ -9,3 +9,9 @@
 6. Build the program: `anchor build`
 7. Copy the new program ID from `solana address -k ./target/deploy/crowdfunding.json`, and replace the existing program ID in lib.rs and Anchor.toml
 8. Run `anchor deploy`
+
+### How to run the frontend
+1. Navigate to the project directory
+2. Run `cd frontend`
+3. Run `npm install` to install the required dependencies
+4. Run `npm run start`
